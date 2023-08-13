@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:pokemon/constants/enum/theme_mode.dart';
+import '../constants/constant.dart';
 import '../providers/shared_preference.dart';
 import '/views/components/navigation_bar.dart';
-import '/constants/constant.dart';
 import '/providers/theme_mode.dart';
-import '/enum/theme_mode.dart';
 
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({Key? key}) : super(key: key);

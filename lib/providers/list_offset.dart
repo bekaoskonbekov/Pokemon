@@ -3,6 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../constants/constant.dart';
 
+
 class PokelistPage {
   int offset = 0;
   int limit = DEFAULT_LIST_LIMIT;

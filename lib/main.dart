@@ -5,7 +5,7 @@ import 'package:pokemon/providers/theme_mode.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '/router.dart';
 import 'constants/constant.dart';
-import 'enum/theme_mode.dart';
+import 'constants/enum/theme_mode.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

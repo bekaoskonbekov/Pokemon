@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
 import '../../constants/constant.dart';
 import '../../models/pokemon.dart';
 import '../../providers/poke_map.dart';
 
 class PokeItem extends ConsumerWidget {
-  // const PokemonButton({Key? key}) : super(key: key);
   const PokeItem({Key? key, required String this.id}) : super(key: key);
 
   final String id;
